@@ -1,1 +1,64 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himanshu Boss | Himanshu Public VM | @hey_himanshu_07_</title>
+<meta name="description" content="Himanshu Boss - Himanshu Public VM - Official Website of Himanshu. Developer, Creator, Photography, Gym Addict. Instagram @hey_himanshu_07_">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;font-family:Arial;color:white;text-align:center;overflow-x:hidden}
+canvas{position:fixed;top:0;left:0;z-index:0}
+.box{position:relative;z-index:2;padding:30px 15px;max-width:600px;margin:auto}
+.top{color:#d4af6a;letter-spacing:3px;font-size:11px}
+.photo{width:210px;height:210px;border-radius:50%;border:4px solid #d4af6a;object-fit:cover;box-shadow:0 0 60px #d4af6a;animation:float 2s infinite alternate;margin-top:20px}
+@keyframes float{from{transform:translateY(0)}to{transform:translateY(-12px)}}
+h1{color:#d4af6a;font-size:46px;margin-top:18px;text-shadow:0 0 20px #d4af6a}
+.tag{letter-spacing:3px;font-size:12px;color:#d4af6a;margin-top:8px}
+.bio{color:#bbb;margin-top:14px;line-height:1.7;font-size:15px}
+.card{background:#151515;border:1px solid #333;border-radius:20px;padding:16px;margin:12px 0;text-align:left}
+.small{color:#999;font-size:11px;letter-spacing:2px}.big{font-size:18px;font-weight:bold;margin-top:4px}
+.pill{display:inline-block;border:1px solid #d4af6a;color:#e8c97a;padding:10px 16px;border-radius:30px;margin:5px;background:rgba(0,0,0,0.6);font-size:14px}
+.btn{background:linear-gradient(90deg,#e8c97a,#b89a4a);color:#000;padding:14px 28px;border-radius:30px;display:inline-block;margin-top:18px;font-weight:bold;box-shadow:0 0 30px #d4af6a;text-decoration:none}
+.btn2{border:1px solid #d4af6a;color:#e8c97a;padding:13px 28px;border-radius:30px;display:inline-block;margin-top:10px;text-decoration:none}
+h2{margin:22px 0 10px;font-size:24px}.gold{color:#d4af6a}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="box">
+<p class="top">HIMANSHU BOSS / HIMANSHU PUBLIC VM - PORTFOLIO 2026</p>
+<img class="photo" src="https://scontent.cdninstagram.com/v/t51.82787-19/729929429_18092203454099122_6371184161205259153_n.jpg" alt="Himanshu Boss">
+<h1>HIMANSHU BOSS</h1>
+<p class="tag">HIMANSHU PUBLIC VM • DEVELOPER • CREATOR</p>
+<p class="bio">😈 Bad Boy 🔥<br>📸 Photography ❤️ | 🏋️ Gym Addict 💪<br>😎 Unique Style Guy 🕶 | 🇮🇳 Proud To Be Indian<br>😁 Happy Because Single<br><br>Welcome to Official Website of Himanshu Boss - Himanshu Public VM.</p>
+<div class="card"><div class="small">INSTAGRAM</div><div class="big">@hey_himanshu_07_</div></div>
+<div class="card"><div class="small">WEBSITE</div><div class="big">himanshupublicvm.com</div></div>
+<div class="card"><div class="small">DATE OF BIRTH</div><div class="big">11 July 2015</div></div>
+<div class="card"><div class="small">AGE</div><div class="big">11 Years</div></div>
+<div class="card"><div class="small">EDUCATION</div><div class="big">Student - Future Goal: IIT</div></div>
+<div class="card"><div class="small">RELIGION</div><div class="big">Hindu</div></div>
+<div class="card"><div class="small">MARITAL STATUS</div><div class="big">Unmarried</div></div>
+<div class="card"><div class="small">PRIMARY SKILLS</div><div class="big">Software & OS Development</div></div>
+<h2>What <span class="gold">Himanshu Boss</span> Can Develop</h2>
+<div class="card"><h3>Web Development</h3><p style="color:#aaa;margin-top:5px">Personal portfolios, business websites by Himanshu Boss.</p></div>
+<div class="card"><h3>Software Development</h3><p style="color:#aaa;margin-top:5px">Fast software with C++, C# and Go.</p></div>
+<div class="card"><h3>OS Development</h3><p style="color:#aaa;margin-top:5px">OS concepts, low-level coding with C++ & Rust.</p></div>
+<div class="card"><h3>App Development</h3><p style="color:#aaa;margin-top:5px">Android WebView apps.</p></div>
+<div class="card"><h3>Automation & Bots</h3><p style="color:#aaa;margin-top:5px">Python automation and Telegram bots.</p></div>
+<div class="card"><h3>UI/UX Redesign</h3><p style="color:#aaa;margin-top:5px">Luxury dark-and-gold look.</p></div>
+<h2>Technologies - <span class="gold">Himanshu Boss</span></h2>
+<span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">JavaScript</span><span class="pill">Python</span><span class="pill">C++</span><span class="pill">C#</span><span class="pill">Rust</span><span class="pill">Go</span>
+<br><br>
+<a class="btn" href="https://www.instagram.com/hey_himanshu_07_">FOLLOW ON INSTAGRAM ↗</a><br>
+<a class="btn2" href="https://www.instagram.com/hey_himanshu_07_">CONTACT HIMANSHU BOSS ↗</a>
+<p style="font-size:12px;color:#888;margin-top:18px">© 2026 Himanshu Boss • Himanshu Public VM • himanshupublicvm.com</p>
+</div>
+<script>
+let canvas=document.getElementById('c');let ctx=canvas.getContext('2d');
+canvas.width=innerWidth;canvas.height=innerHeight;
+let parts=[];for(let i=0;i<120;i++){parts.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,r:Math.random()*2+1,s:Math.random()*1+0.3})}
+function draw(){ctx.clearRect(0,0,canvas.width,canvas.height);for(let p of parts){ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle='#d4af6a';ctx.shadowBlur=15;ctx.shadowColor='#d4af6a';ctx.fill();p.y-=p.s;if(p.y<0){p.y=canvas.height;p.x=Math.random()*canvas.width}}requestAnimationFrame(draw)}draw();
+</script>
+</body>
+  </html>
